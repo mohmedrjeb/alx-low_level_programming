@@ -14,17 +14,17 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("the last digit of %d is ", n);
+	printf("Last digit of %d is ", n);
 
-	if (n < 0)
+	if (n > 0)
 	{
-		n = -n;
+		n = n;
 	}
 	n %= 10;
 
 	if (n > 5)
 	{
-		printf("%d is grater than 5\n", n);
+		printf("%d and is grater than 5\n", n);
 	}
 	else if (n == 0)
 	{
