@@ -24,7 +24,7 @@ int main(void)
 		putchar(c);
 
 		c++;
-	} while (c <= 'A');
+	} while (c <= 'Z');
 
 	putchar('\n');
 
