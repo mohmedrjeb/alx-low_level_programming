@@ -24,7 +24,7 @@ int main(void)
 
 	if (n > 5)
 	{
-		printf("%d and is grater than 5\n", n);
+		printf("%d and is greater than 5\n", n);
 	}
 	else if (n == 0)
 	{
