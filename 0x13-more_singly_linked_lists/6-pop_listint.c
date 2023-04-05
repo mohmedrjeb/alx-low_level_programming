@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - function that deletes the head node and returns the head node's data
+ * pop_listint - function that deletes the head node
+ * and returns the head node's data
  * Return: the head node's data (n)  if the linked list is empty return 0
  * @head: head node of the linked  list
  */
